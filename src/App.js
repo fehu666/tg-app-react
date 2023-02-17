@@ -6,9 +6,7 @@ function App() {
 
   const {onToggleButton, tg} = useTelegram();
 
-  useEffect(()=>{
-    tg.ready();
-  },[]);
+
 
   return (
     <div className="App">
