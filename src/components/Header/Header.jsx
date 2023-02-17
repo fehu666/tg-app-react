@@ -11,7 +11,7 @@ const Header = (props) => {
         <div className={'header'}>
             <Button onClick={onClose}>Закрыть</Button>
             <span className={'username'}>
-                {user?.username}
+                {user?.first_name}
             </span>
         </div>
     );
