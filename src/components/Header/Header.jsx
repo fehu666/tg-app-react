@@ -11,11 +11,9 @@ const Header = (props) => {
         <div className={'header'}>
             {/* <Button onClick={onClose}>Закрыть</Button> */}
             <div>
-                Home
+                BE HIGHER
             </div>
-            <span className={'username'}>
-                {/* {user?.first_name} */}
-            </span>
+
         </div>
     );
 }
