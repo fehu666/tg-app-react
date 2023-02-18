@@ -14,7 +14,7 @@ const Header = (props) => {
                 Home
             </div>
             <span className={'username'}>
-                {user?.first_name}
+                {/* {user?.first_name} */}
             </span>
         </div>
     );
